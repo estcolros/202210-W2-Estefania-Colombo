@@ -69,11 +69,15 @@ form {
     flex-direction: column;
 }
 input {
-    background-color: #d1bfac;
+    background-color: transparent;
     margin-bottom: 20px;
     width: 300px;
     border: none;
     border-bottom: #936f9e solid 2px;
+    font-size: 1rem;
+}
+input:focus {
+    outline: none;
 }
 label {
     font-size: 0.9rem;
@@ -83,6 +87,7 @@ label {
 }
 button {
     background-color: #5169a7;
+    border: #5169a7;
     width: 78px;
     height: 30px;
     margin-top: 10px;

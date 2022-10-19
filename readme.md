@@ -13,4 +13,4 @@
 
 ### Netlify
 
-**Deploy:**
+**Deploy:** https://202210-w2-estcolros.netlify.app/
