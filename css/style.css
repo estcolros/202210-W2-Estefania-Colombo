@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+    background-color: #d1bfac;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+nav {
+    background-color: #5169a7;
+    padding: 25px 10px;
+    display: flex;
+}
+nav > h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-right: auto;
+}
+nav > a {
+    color: black;
+    font-size: 0.8rem;
+    padding-left: 5px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+nav > :nth-child(3n) {
+    font-weight: 800;
+    color: black;
+}
+.b-mas {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: auto;
+}
+section {
+    background-color: #d09c72;
+    padding: 12px 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+main {
+    background-color: #d1bfac;
+    height: 100%;
+    padding: 20px 0;
+}
+li {
+    font-size: 1rem;
+    margin: 12px;
+    list-style: none;
+}
+li:hover {
+    color: #d55d07;
+}
+li > :nth-child(2) {
+    width: 100%;
+    padding-left: 5px;
+    text-decoration: line-through;
+}
+ul :nth-child(2n) :nth-child(2) {
+    text-decoration: none;
+}
+ul :nth-child(1n) :nth-child(3),
+ul :nth-child(2n) :nth-child(3),
+ul :nth-child(3n) :nth-child(3) {
+    float: right;
+}
+hr {
+    height: 1.5px;
+    background-color: #6b476c;
+    border: none;
+}
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: right;
+    margin: 15px;
+}
+footer {
+    background-color: #5169a7;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w3c {
+    width: 90px;
+}
