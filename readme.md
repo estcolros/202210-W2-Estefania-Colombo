@@ -6,10 +6,9 @@
 
 ##### First project using HTML and CSS.
 
--   Client / server model (2 software layers)
--   Protocol both: http / https
--   Identify resources: URL (Uniform Resource Locator)
--   HTML Resources
+-   Layout of a list and a form with HTML and CSS.
+-   We reduce the use of CSS classes and use HTML selectors.
+-   Validation of both with W3C Markup Validation Service to ensure technical quality.
 
 ### Netlify
 
